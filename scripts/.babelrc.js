@@ -11,6 +11,7 @@ module.exports = api => {
                 '@babel/env',
                 {
                     useBuiltIns: 'usage',
+                    corejs: 3,
                     shippedProposals: true,
                     spec: true,
                     loose: false,
