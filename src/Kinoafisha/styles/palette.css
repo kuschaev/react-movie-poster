@@ -1,0 +1,9 @@
+:root {
+    --paletteColor1: #16161a;
+    --paletteColor2: #35354d;
+    --paletteColor3: #EFF7FC;
+    --paletteColor4: #fca05b;
+
+    /* RGB */
+    --rgbColor1: rgb(153, 153, 153);
+}

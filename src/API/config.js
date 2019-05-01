@@ -1,3 +1,1 @@
-export class Config {
-    MAIN_URI = 'https://lab.lectrum.io';
-}
+export const MAIN_URI = 'https://lab.lectrum.io';

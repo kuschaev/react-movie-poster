@@ -1,1 +1,1 @@
-export { api } from './REST';
+export { api } from './client';
