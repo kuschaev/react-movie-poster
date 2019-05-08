@@ -16,11 +16,14 @@ export const Kinoafisha = () => {
         selectedFilter,
     });
 
-    const getMoviesByFilter = async () => {
-        const newMovies = await api.getMovies(selectedFilter);
+    useEffect(() => {
+        const getMoviesByFilter = async () => {
+            const newMovies = await api.getMovies(selectedFilter);
 
-        setMovies(newMovies);
-    };
+            setMovies(newMovies);
+        };
+        getMoviesByFilter();
+    }, []);
 
     return (
         <>
