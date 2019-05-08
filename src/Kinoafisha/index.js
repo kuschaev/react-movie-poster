@@ -10,6 +10,7 @@ import { api } from '../Api';
 
 export const Kinoafisha = () => {
     const [ selectedFilter, setSelectedFilter ] = useState('upcoming');
+    const [ movies, setMovies ] = useState([]);
 
     const styles = getStyles({
         selectedFilter,
@@ -17,6 +18,8 @@ export const Kinoafisha = () => {
 
     const getMoviesByFilter = async () => {
         const newMovies = await api.getMovies(selectedFilter);
+
+        // setMovies(newMovies)
     };
 
     return (
