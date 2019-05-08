@@ -22,6 +22,7 @@ export const Kinoafisha = () => {
 
             setMovies(newMovies);
         };
+
         getMoviesByFilter();
     }, []);
 
