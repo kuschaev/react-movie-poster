@@ -15,6 +15,10 @@ export const Kinoafisha = () => {
         selectedFilter,
     });
 
+    const getMoviesByFilter = async () => {
+        const newMovies = await api.getMovies(selectedFilter);
+    };
+
     return (
         <>
             <div className = 'header'>
