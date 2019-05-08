@@ -19,7 +19,7 @@ export const Kinoafisha = () => {
     const getMoviesByFilter = async () => {
         const newMovies = await api.getMovies(selectedFilter);
 
-        // setMovies(newMovies)
+        setMovies(newMovies)
     };
 
     return (
