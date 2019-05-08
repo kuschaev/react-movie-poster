@@ -24,6 +24,20 @@ export const Kinoafisha = () => {
                         }>
                         <span>Новинки 2019</span>
                     </div>
+                    <div
+                        className = { styles.latestFilter }
+                        data-name = 'latest'
+                        onClick = { (event) => setSelectedFilter(event.currentTarget.dataset.name)
+                        }>
+                        <span>Новинки 2019</span>
+                    </div>
+                    <div
+                        className = { styles.latestFilter }
+                        data-name = 'latest'
+                        onClick = { (event) => setSelectedFilter(event.currentTarget.dataset.name)
+                        }>
+                        <span>Новинки 2019</span>
+                    </div>
                 </div>
             </div>
         </>
