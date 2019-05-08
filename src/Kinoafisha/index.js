@@ -5,6 +5,9 @@ import React, { useState } from 'react';
 import './styles/main.css';
 import { getStyles } from '../instruments';
 
+// Api
+import { api } from '../Api';
+
 export const Kinoafisha = () => {
     const [ selectedFilter, setSelectedFilter ] = useState('upcoming');
 
