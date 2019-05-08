@@ -3,9 +3,14 @@ import React, { useState } from 'react';
 
 // Instruments
 import './styles/main.css';
+import { getStyles } from '../instruments';
 
 export const Kinoafisha = () => {
     const [ selectedFilter, setSelectedFilter ] = useState('upcoming');
+
+    const styles = getStyles({
+        selectedFilter,
+    });
 
     return (
         <>
