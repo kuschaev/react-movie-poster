@@ -18,7 +18,7 @@ export const Kinoafisha = () => {
                 <div className = 'logo' />
                 <div className = 'filters'>
                     <div
-                        className = 'latest'
+                        className = { styles.latestFilter }
                         data-name = 'latest'
                         onClick = { (event) => console.log(event.currentTarget.dataset.name)
                         }>
