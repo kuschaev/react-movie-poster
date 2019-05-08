@@ -1,10 +1,12 @@
 // Core
-import React from 'react';
+import React, { useState } from 'react';
 
 // Instruments
 import './styles/main.css';
 
 export const Kinoafisha = () => {
+    const [ selectedFilter, setSelectedFilter ] = useState('upcoming');
+
     return (
         <>
             <div className = 'header'>
