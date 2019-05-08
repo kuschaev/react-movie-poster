@@ -9,7 +9,11 @@ export const Kinoafisha = () => {
         <>
             <div className = 'header'>
                 <div className = 'logo' />
-                <div className = 'filters' />
+                <div className = 'filters'>
+                    <div>
+                        <span>Новинки 2019</span>
+                    </div>
+                </div>
             </div>
         </>
     );
