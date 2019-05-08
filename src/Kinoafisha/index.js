@@ -26,6 +26,8 @@ export const Kinoafisha = () => {
         getMoviesByFilter();
     }, []);
 
+    console.log(movies);
+
     return (
         <>
             <div className = 'header'>
