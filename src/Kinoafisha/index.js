@@ -10,7 +10,7 @@ export const Kinoafisha = () => {
             <div className = 'header'>
                 <div className = 'logo' />
                 <div className = 'filters'>
-                    <div>
+                    <div className = 'latest'>
                         <span>Новинки 2019</span>
                     </div>
                 </div>
