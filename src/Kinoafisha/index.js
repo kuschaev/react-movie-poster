@@ -12,7 +12,9 @@ export const Kinoafisha = () => {
                 <div className = 'filters'>
                     <div
                         className = 'latest'
-                        data-name = 'latest'>
+                        data-name = 'latest'
+                        onClick = { (event) => console.log(event.currentTarget.dataset.name)
+                        }>
                         <span>Новинки 2019</span>
                     </div>
                 </div>
